@@ -77,10 +77,4 @@ The solver is applied to encode and solve the **graph 3-coloring problem**:
 | `ExtendedFormula.hs` | Formula simplification, unit propagation, and pure literal elimination. |
 | `Solver.hs` | Full CDCL-based SAT solver with conflict analysis and backtracking. |
 
----
 
-## Run Instructions
-1. Load the test module in GHCi:
-   ```bash
-   ghci TestSolver.hs
-   main
